@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{ 
+background-image: url('back.final.webp');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+
+
+ }
+ .header{
+     min-height: 100vh;
+     width:auto;
+     background-image: linear-gradient(rgba(4,9,20,0.7),rgba(4,9,20,0.7)),url(cafe\ home\ page.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     
+ }
+ nav{
+     display:flex;
+     padding: 2% 6%;
+     justify-content: space-between;
+     align-items:center;
+ }
+ nav img{
+     width:150px;
+ }
+ .nav-links{
+     flex:1;
+     text-align: right;
+ 
+ }
+ .nav-links ul li{
+     list-style: none;
+     display: inline-block;
+     padding:8px 12px;
+     position: relative;
+ }
+ .nav-links ul li a{
+     color:white;
+     font-family:none;
+     font-size: 25px;
+ 
+ }
+ .nav-links ul li::after{
+     content:'';
+     width: 0%;
+     height: 7px;
+     background: #f44336;
+     display:block;
+     margin: auto;
+     transition: 0.5s;
+ }
+ .nav-links ul li:hover::after{
+     width:100%;
+ }
+ .text-box{
+     width:90%;
+     color:bisque;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+ }
+ 
+ .text-box h1{
+     font-size:52px;
+ }
+ 
+ .text-box{
+     margin:0px 10px 0 40px;
+     font-size: 24px;
+     color: white;
+ }
+ 
+ .hero-btn{
+     display: inline-block;
+     text-decoration: none;
+     color:darkred;
+     border: 1px solid #fff;
+     padding: 12px 34px;
+     font-size:13px;
+     background: transparent;
+     position: relative;
+     cursor:pointer;
+ }
+ 
+ .hero-btn:hover{
+     border: 1px solid lightpink;
+     background: lightskyblue;
+     transition: 1s;
+ }
+ 
+ .Menus{
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     padding-top: 100px;
+ 
+ }
+ h1{
+     font-size: 36px;
+     font-weight: 600;
+     text-align: center;
+ }
+ 
+ p{
+     color:blue
+ }
+ 
+ .row{
+     margin-top: 5%;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .Menu-col{
+     flex-basis: 20%;
+     background:#f8e0e0;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     padding: 20px 12px;
+     box-sizing: border-box;
+     text-align: center;
+     transition: 0.5s;
+ }
+ 
+ h3{
+     text-align: center;
+     font-weight: 600;
+     margin: 10px 0;
+ }
+ .Menu-col:hover{
+     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2)
+ }
+ 
+ .Aboutus{
+     width:80%;
+     margin: auto;
+     text-align: center;
+     padding-top: 20px;
+ }
+ 
+ .Aboutus-col{
+     flex-basis: 32%;
+     border-radius: 10px;
+     margin-bottom: 30px;
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .Aboutus-col img{
+      width:100%;
+      display: block;
+ }
+ .layer{
+     background: transparent;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left:0;
+     transition: 0.5s;
+ }
+ .layer:hover{
+     background: rgba(233, 98, 98, 0)
+ }
+ .layer h3{
+     width: 100%;
+     font-weight: 500;
+     color: #fff;
+     font-size: 26px;
+     bottom: 0;
+     left: 50%;
+     transform: translate(-50%);
+     position: absolute;
+ }
+ .layer:hover h3{
+     bottom: 49%;
+     opacity: 1;
+ }
+ .p{
+     text-align-last: right;
+ }
+ .contact{
+     min-height: 100vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(4,9,20,0.7),rgba(4,9,20,0.7)),url(contact\ cafe.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+ table,tr,th,td{
+     border:none;
+     padding:3px;
+     margin-left: 1500px;
+     text-align:left;
+     color:darkmagenta;
+     font-size: 30;
+     margin-top: 30px;
+     margin-right: 10px;
+ }
+ 
+ .odernow{
+     min-height: 100vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(4,9,20,0.7),rgba(4,9,20,0.7)),url(order\ now\ cafe.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     text-align: center;
+     label
+ }
+     
+ 
+ 
+ 
+     .table,tr,th,td{
+             border:none;
+             padding:3px;
+             margin-left: 1000px;
+             text-align: center;
+             color:darkmagenta;
+             font-size: 30;
+             margin-top: 30px;
+             margin-right: 10px;
+         }
+ 
+         .section{
+             background-color: #252123;
+             display: flex;
+             justify-content: space-between;
+             padding: 40px;
+             width: 60%;
+             margin:10px auto 0 auto;
+             
+ 
+         }
+         .section img{
+             height:250px;
+ 
+         }
+         .section form{ 
+             color:aquamarine;
+ 
+         }
+ 
+ .Aboutus{
+     
+         
+     }
+ 
+     .container{   
+         margin: 150px auto;
+         width: 50%;
+         padding: 8px;
+ 
+ 
+     }
+     img{
+         float:left;
+         width: 300px;
+         height: 260px;
+         padding: 0 10 px 0;
+     }
+ 
+     .text{
+         text-align: justify;
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+ 
+ 
+ div.main{
+     width: 400px;
+     margin: 100px auto 0px auto;
+ }
+ 
+ div.register{
+     background-color: rgba(0,0,0,0.5);
+     width: 100;
+     font-size: 50px;
+     border-radius:10px;
+     border:1px soid rgba(255,255,255,0.3);
+     box-shadow: 2px 2px 15px;
+     rgba(0,0,0,0.3);
+     color:#fff; 
+ }
+ form#register{
+     margin: 40px;
+ 
+ }
+ label{
+     font-family: sans-serif;
+     font-size: 18px;
+     font-style:italic;
+ }
+ input#name{
+     width: 300px;
+     border: 1px solid #ddd;
+     border-radius: 3px;
+     outline: 0;
+     padding: 7px;
+     background-color: #fff;
+     box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+ }
+ input#submit{
+     width: 200px;
+     padding: 7px;
+     font-size: 16px;
+     font-family:sans-serif;
+     font-weight: 600;
+     border: none;
+     border-radius: 3px;
+     background-color: rgba(250,100,0,0.8);
+     color:#fff;
+     cursor: pointer;
+     border:1px solid rgba(255,255,255,0.3);
+     box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+ }
+ label,span,h2{
+     text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+ }
+ }
+ 
